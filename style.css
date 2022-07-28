@@ -1,0 +1,304 @@
+* , *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    height: 100vh;
+
+}
+.dashboard-container{
+    background-color: rgba(0, 78, 100, 0.995);
+
+    width: 19.5%;
+
+    padding-top: 2em;
+    padding-left: 2em;
+
+    max-width: 300px;
+    min-width: 300px;
+
+    
+
+    overflow: auto;
+    
+}
+
+.dsh-item a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.dsh-item img{
+    filter: invert(1);
+    width: 28px;
+}
+
+.dashboard img {
+    width: 40px;
+    filter: Invert(1);
+}
+
+.dashboard{
+    margin-bottom: 2.5em;
+}
+
+.dsh-item{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,50px 1fr);
+}
+
+.home,.profile,.messages,.history,.task{
+    margin-bottom: 1em;
+}
+
+.settings{
+    margin-top: 3em;
+}
+
+.settings , .support{
+    margin-bottom: 1em;
+}
+
+.dsh-item p {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 0.2em;
+}
+
+/* Phase 2 */
+.top-container{
+    padding-top: 1.5em; 
+    padding-inline: 3em;
+
+
+    padding-bottom: 1.2em;
+
+    
+}
+label img{
+    height: 30px;
+}
+
+.bell img {
+    width: 20px;
+}
+
+.bell-profile img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.bell-name p {
+    font-weight: 900;
+}
+
+.top-item1-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1-mini-item2{
+    display: flex;
+}
+
+.item1-mini-item1{
+    display: flex;
+}
+
+
+.input input{
+    border-radius: 22px;
+    background-color: rgb(231, 231, 231);
+    border: 2px solid  rgb(231, 231, 231);
+
+    padding-left: 1em;
+    padding-right: 40em;
+    padding-block: 0.8em;
+
+    margin-left: 1em;
+}
+
+label img {
+    margin-top: 0.4em;
+}
+
+.bell img , .bell-name p {
+    margin-top: 0.5em;
+}
+
+
+.top-item2-container{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2em;
+}
+
+.bell-profile img {
+    margin-left: 3em;
+    margin-right: 1em;
+}
+
+.item2-mini-item1{
+    display: flex;
+}
+
+.profile-img img{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+
+    margin-right: 0.7em;
+}
+
+.name-and-text{
+    margin-top: 1.2em;
+}
+
+.name-and-text p {
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+.item2-mini-item2 button{
+    padding-inline: 2em;
+    padding-block: 0.5em;
+    border-radius: 25px;
+    background-color: rgba(0, 78, 100, 0.995);
+    color: white;
+
+    border: 3px solid white;
+    font-weight: bold;
+
+    font-size: 17px;
+
+    
+}
+
+.item2-mini-item2{
+    margin-top: 2em;
+}
+
+.button3 , .button2 {
+    margin-left: 1.5em;
+}
+
+
+/* Phase 3  */
+.bottom-container{
+    background-color:rgb(231, 231, 231);
+}
+
+.itm1 img{
+    width: 30px;
+}
+
+.itm1{
+    background-color: white;
+
+    border-radius: 16px;
+
+    padding-block: 1.3em;
+    padding-inline: 2em;
+
+    box-shadow: -5px 0 rgb(59, 206, 204);
+}
+
+.bottom-item1-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,clamp(230px, 50%, 400px));
+    gap: 1.5em;
+}
+
+.itm1 h2{
+    margin-bottom: 0.3em;
+}
+
+.itm1 p {
+    font-size: 13px;
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+}
+
+.itm1-button-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+
+    margin-top: 2em;
+}
+
+/* Phase 4 */
+.bottom-item2-mini-1{
+    background-color: white;
+    font-size: 13px;
+}
+
+.itm2-img img{
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.bottom-container{
+    padding-left: 2em;
+    padding-right: 5em;
+    padding-top: 2em;
+
+    padding-bottom: 5em;
+
+    display: grid;
+    grid-template-columns: minmax(100px,1fr) 250px;
+
+    height: 100vh;
+}
+
+.bottom-item2-mini-2{
+    background-color: white;
+
+}
+
+.flex{
+    display: flex;
+    gap: 1em;
+}
+
+.flex p {
+    font-size: 14px;
+}
+
+.itm2-1 , .itm2-2 , .itm2-3{
+    padding-bottom: 0.5em;
+}
+
+.bottom-item2-mini-1{
+    padding-left: 2em;
+    padding-right: 1.2em;
+    padding-block: 2em;
+
+    border-radius: 16px;
+}
+
+.bottom-item2-mini-2{
+    border-radius: 16px;
+    padding-block: 1em;
+    padding-inline: 1.5em;
+}
+
+.bottom-item2-container{
+    display: grid;
+    grid-template-rows: repeat(2,minmax(250px,500px),minmax(150px,250px));
+    grid-template-columns: repeat(1,minmax(100px,250px));
+
+}

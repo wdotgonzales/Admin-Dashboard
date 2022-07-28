@@ -1,4 +1,4 @@
 # Admin-Dashboard
 Sample Landing Page using HTML/CSS\
 Created : 07/28/2022\
-Live Preview : wdotgonzales.github.io/Admin-Dashboard/
+Live Preview : https://wdotgonzales.github.io/Admin-Dashboard/

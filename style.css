@@ -261,7 +261,6 @@ label img {
     display: grid;
     grid-template-columns: minmax(100px,1fr) 250px;
 
-    height: 100vh;
 }
 
 .bottom-item2-mini-2{
